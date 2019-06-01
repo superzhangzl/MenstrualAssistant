@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: dev #默认为开发环境
+  datasource:
+    url: jdbc:mysql://localhost:3306/assistant
+    username: root
+    password: 12345678
